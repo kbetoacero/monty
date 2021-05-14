@@ -47,8 +47,8 @@ typedef struct instruction_s
 stack_t *push(stack_t **head, unsigned int line_number);
 stack_t *pall(stack_t **head, unsigned int line_number);
 void open_file(char *file);
-stack_t *(get_op(char *buffer, stack_t **head, unsigned int
-	line_number))(stack_t **head, unsigned int
+stack_t *(*op_get(char *buff, stack_t **head, unsigned int
+	line_num))(stack_t **head, unsigned int
 	line_number);
 void free_stack(stack_t **stack);
 
