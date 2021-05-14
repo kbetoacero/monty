@@ -3,7 +3,7 @@
 /**
 * struc_opcode - search for op_code
 * @line_number: line number
-* @head: stack
+* @stack: stack list
 * @opcode: opcode
 * Return: 1 in success 0 else
 */

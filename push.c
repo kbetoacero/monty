@@ -2,9 +2,9 @@
 
 /**
  * push - adds an integer to a double linked list
- * @head: head of the list to modify
+ * @stack: stack the list to modify
  * @n: number to add
- * @line_n: number line
+ * @line_number: number line
  **/
 
 void push(stack_t **stack, unsigned int line_number, char *n)
