@@ -8,7 +8,7 @@
 #include <ctype.h>
 
 /*GLOBAL VARIABLES*/
-extern int Num_entered
+extern int Num_entered;
 
 /*STRUCTURES*/
 
@@ -46,6 +46,9 @@ typedef struct instruction_s
 
 stack_t *push(stack_t **head, unsigned int line_number);
 stack_t *pall(stack_t **head, unsigned int line_number);
+stack_t *pint(stack_t **head, unsigned int line_number);
+stack_t *pop(stack_t **head, unsigned int line_number);
+stack_t *add(stack_t **stack, unsigned int line_number);
 void open_file(char *file);
 stack_t *(*op_get(char *buff, stack_t **head, unsigned int
 	line_num))(stack_t **head, unsigned int
